@@ -12,12 +12,14 @@
 	 <p id="description">Thank you for taking the time to help us improve the platform</p>
 
 	 <form id="survey-form">
-		
-		<input type="name" name="name" class="in"id="name" id="name-label" placeholder="Type Your Name">
+		<label id="name-label">name</label>
+		<input type="name" name="name" class="in"id="name" id="name-label" label="name" placeholder="Type Your Name" required>
 		<br>
-		<input type="email" name="email" class="in" id="email" id="email-label"  placeholder="Enter Your Email" >
+		<label id="email-label">email</label>
+		<input type="email" name="email" class="in" id="email" id="email-label" label="email" placeholder="Enter Your Email" required>
 		<br>
-		<input type="number" name="age" class="in" id="number" min = "10" max = "99" id="number-label" placeholder="Enter Your Age">
+		<label id="number-label">number</label>
+		<input type="number" name="age" class="in" id="number" min = "10" max = "99" id="number-label" label="number" placeholder="Enter Your Age" required>
 		<br>
 		<select id="dropdown">
 			<option>Student</option>
